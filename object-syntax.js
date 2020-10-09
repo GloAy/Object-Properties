@@ -29,8 +29,6 @@
 // let arr2 = [...arr, ...arr1];
 
 // console.log(arr2)
-
-
 const name = 'Cody';
 const loud = 'loud';
 
@@ -41,9 +39,5 @@ const dog = {
     name,
     [`${loud}Bark`]() {
         return this.bark().toUpperCase();
-    },
+    }
 }
-
-const {
-    bark
-} = dog;
